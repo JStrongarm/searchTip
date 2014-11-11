@@ -1,0 +1,36 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+}
+
+body {
+   background: url(https://ununsplash.imgix.net/reserve/xpdPwXTASnOUXFpIPgDs_IMG_1460_edt.jpg?q=75&fm=jpg&s=14f08c0d844035df3c9fea8705d4c38c) no-repeat center center fixed; ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.searchInput{
+   height: 125px;
+   width: 600px;
+   padding: 0 20px 0 20px;
+   margin: 0 auto;
+   margin-top: 40px;
+   display: block;
+   text-align: left;
+   font-family: sans-serif;
+   font-size: 40pt;
+   font-weight: 100;
+   color: rgba(255,255,255,0.1);
+   background: rgba(1,1,1,0.1);
+   border: none;
+   transition: color 0.5s;
+}
+
+.searchInput:focus {
+   outline: none;
+   color: rgba(255,255,255,0.8);
+}
